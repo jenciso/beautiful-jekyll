@@ -36,7 +36,7 @@ avatar: "/img/jenciso.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: /img/GrupoRBS Predio.png
+title-img: /img/camara.png
 
 # --- Footer options --- #
 
@@ -90,7 +90,7 @@ share-links-active:
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+disqus: "jenciso-github-io"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
