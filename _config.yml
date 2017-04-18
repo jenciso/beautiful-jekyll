@@ -15,6 +15,7 @@ baseurl: ""
 
 # Name of website
 title: Juan Enciso - Personal Blog
+use-site-title: Blog
 
 # Short description of your site
 description: This is my personal blog
