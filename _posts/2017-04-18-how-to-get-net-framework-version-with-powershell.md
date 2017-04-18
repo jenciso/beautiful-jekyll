@@ -3,6 +3,7 @@ layout: post
 published: true
 title: How to get .Net Framework version with PowerShell
 bigim: /img/dotnet.jpg
+image: /img/dotnet_icon.png
 ---
 Open one powershell window and execute this command:
 
