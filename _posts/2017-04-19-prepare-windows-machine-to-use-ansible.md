@@ -20,7 +20,7 @@ If your server is behind of proxy server, change to
 
 Add to line 2:
 ```
--PassThru -Proxy http://{{ proxy_server }}:{{ proxy_port }}
+-PassThru -Proxy http://ip_proxy_server:proxy_port
 ```
 
 Ex:
