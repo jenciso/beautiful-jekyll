@@ -16,9 +16,7 @@ PS C:\temp> Invoke-WebRequest -Uri https://raw.githubusercontent.com/ansible/ans
 PS C:\temp> .\ConfigureRemotingForAnsible.ps1
 ```
 
-If your server is behind of proxy server, change to 
-
-Add to line 2:
+If your server is behind of a proxy server, add to line 2:
 ```
 -PassThru -Proxy http://ip_proxy_server:proxy_port
 ```
