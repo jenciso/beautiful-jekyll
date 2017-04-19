@@ -21,7 +21,10 @@ If your server is behind of a proxy server, add to line 2:
 -PassThru -Proxy http://ip_proxy_server:proxy_port
 ```
 
-Ex:
+Example:
 ```
 PS C:\temp> Invoke-WebRequest -Uri https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1 -Method Get -OutFile ConfigureRemotingForAnsible.ps1 -PassThru -Proxy http://192.168.0.20:8080
 ```
+Result:
+
+![powershell_ansible.png]({{site.baseurl}}/img/powershell_ansible.png)
