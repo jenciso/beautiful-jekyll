@@ -1,7 +1,8 @@
 ---
 layout: post
 published: true
-title: prepare windows machine to use ansible
+title: Prepare windows machine to use ansible
+bigimg: /img/ansible-windows-blog.png
 ---
 ## Prepare windows machine to use ansible
 
@@ -14,4 +15,3 @@ PS C:\temp> Invoke-WebRequest -Uri https://raw.githubusercontent.com/ansible/ans
 
 PS C:\temp> .\ConfigureRemotingForAnsible.ps1
 ```
-
