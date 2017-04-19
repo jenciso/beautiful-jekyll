@@ -11,7 +11,19 @@ Step 1: Open a window powershell as Administrator and execute the following comm
 ```
 PS C:\Windows\system32> cd C:\temp
 
-PS C:\temp> Invoke-WebRequest -Uri https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1 -Method Get -OutFile ConfigureRemotingForAnsible.ps1 -PassThru -Proxy http://192.168.0.20:8080
+PS C:\temp> Invoke-WebRequest -Uri https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1 -Method Get -OutFile ConfigureRemotingForAnsible.ps1
 
 PS C:\temp> .\ConfigureRemotingForAnsible.ps1
+```
+
+If your server is behind of proxy server, change to 
+
+Add to line 2:
+```
+-PassThru -Proxy http://{{ proxy_server }}:{{ proxy_port }}
+```
+
+Ex:
+```
+PS C:\temp> Invoke-WebRequest -Uri https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1 -Method Get -OutFile ConfigureRemotingForAnsible.ps1 -PassThru -Proxy http://192.168.0.20:8080
 ```
