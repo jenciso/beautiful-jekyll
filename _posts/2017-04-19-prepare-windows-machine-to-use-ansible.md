@@ -6,7 +6,7 @@ bigimg: /img/ansible-windows-blog.png
 ---
 ## Prepare windows machine to use ansible
 
-Open a window terminal in powershell as Administrator and run the following commands
+Open a window terminal in **powershell** as Administrator and run the following commands
 
 ```
 PS C:\Windows\system32> cd C:\temp
