@@ -7,6 +7,7 @@ bigimg: /img/kibana50console.png
 
 ## Search using query 
 
+```
 GET filebeat-2017.04.28/_search
 {
   "query": {
