@@ -77,7 +77,7 @@ Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 and response the Answer to Y 
 
 
-Here you have more tips:
+[Here][1] you have more tips:
 
-http://damonoverboe.org/devops/ci/continuous-delivery/ansible/windows/2014/08/25/ansibleWindows.html
+[1]: http://damonoverboe.org/devops/ci/continuous-delivery/ansible/windows/2014/08/25/ansibleWindows.html
 
