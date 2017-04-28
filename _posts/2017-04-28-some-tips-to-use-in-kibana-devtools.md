@@ -5,6 +5,8 @@ title: Some Tips to use in Kibana Dev Tools
 bigimg: /img/kibana50console.png
 ---
 
+# Some tips
+
 ## Search using query 
 
 ```
@@ -19,6 +21,8 @@ GET filebeat-2017.04.28/_search
     }
   }
 }
+
+```
 
 ## Delete using query
 
