@@ -23,9 +23,9 @@ Host github.com
 * Step 2: Test it logging 
 
 ```
-ssh -T -p 443 git@ssh.github.com
-Hi username! You've successfully authenticated, but GitHub does not
-provide shell access.
+[root@pachacutec jenciso.github.io]# ssh -T -p 443 git@ssh.github.com
+Hi jenciso! You've successfully authenticated, but GitHub does not provide shell access.
+[root@pachacutec jenciso.github.io]# 
 ```
 
 * Step 3: Test it clonning any repository
