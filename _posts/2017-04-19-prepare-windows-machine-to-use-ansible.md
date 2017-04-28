@@ -16,6 +16,7 @@ PS C:\temp> Invoke-WebRequest -Uri https://raw.githubusercontent.com/ansible/ans
 
 * Step 2: Execute the script file
 
+```
 PS C:\temp> .\ConfigureRemotingForAnsible.ps1
 ```
 
