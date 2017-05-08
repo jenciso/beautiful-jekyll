@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Change retention policy in kafka 0.10.2
-bigimg: https://kafka.apache.org/images/logo.png
+bigimg: /img/kafka_logo.png
 ---
 
 This example is based in CentOS 7
