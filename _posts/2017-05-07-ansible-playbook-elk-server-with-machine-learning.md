@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Ansible Playbook for ELK Server 5.4 with Machine Learning
+bigimg: /img/kibana-machine-learning.jpg
 ---
 
 # ELK - Server
